@@ -113,7 +113,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
-  - host: shahab-nginx
+  - host: shahab.3.237.178.79.sslip.io
     http:
       paths:
       - path: /
